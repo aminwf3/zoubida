@@ -10,7 +10,7 @@ composer install
 git checkout entity-created
 git commit -m "migration: add entity Lessons table"
 git commit -m "dev: created new Controller -DefaultController"
-
+git commit -m "dev: edit base.html.twig and add assets to project"
 <link href="{{ absolute_url( asset('assets/css/style.css')) }}" rel="stylesheet">
 
 

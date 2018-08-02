@@ -17,6 +17,7 @@ class HomeController extends Controller
             "user" => [
                 "Nom"=> "Bob",
                 "Prenom" => "Patrick",
+                "avatar" => "https://cdn-s-www.ledauphine.com/images/BE7AB5BD-E580-45C4-B811-7236702E837F/LDL_V0_12/bob-l-eponge-et-son-ami-patrick-l-etoile-de-mer-capture-d-ecran-1508313090.jpg",
             ]
         ]);
     }
