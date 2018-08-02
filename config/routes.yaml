@@ -1,4 +1,4 @@
 index: # la route #
     path: / # le chemin #
-    controller: App\Controller\DefaultController::index
-            #  pointe vers defaultController, méthode:index #
+    controller: App\Controller\HomeController::index
+            #  pointe vers HomeController, méthode:home #
