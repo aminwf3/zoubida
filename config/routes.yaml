@@ -1,4 +1,22 @@
 index: # la route #
     path: / # le chemin #
     controller: App\Controller\HomeController::index
-            #  pointe vers HomeController, méthode:home #
+
+login:
+    path: /login
+    controller: App\Controller\LoginController::login 
+    methods: [GET] 
+
+postlogin:
+    path: /login
+    controller: App\Controller\LoginController::postlogin 
+    methods: [POST] 
+
+register:
+    path: /register
+    controller: App\Controller\LoginController::register
+
+postregister:
+    path: /register
+    controller: App\Controller\LoginController::postregister    
+    methods: [POST] 
