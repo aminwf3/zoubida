@@ -1,0 +1,3 @@
+git add -A
+git commit -m "migration: add entity Categories table"
+git push
