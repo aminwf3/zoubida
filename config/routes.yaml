@@ -4,14 +4,8 @@ index: # la route #
 
 login:
     path: /login
-    controller: App\Controller\LoginController::login 
-    methods: [GET] 
-
-postlogin:
-    path: /login
-    controller: App\Controller\LoginController::postlogin 
-    methods: [POST] 
-
+    controller: App\Controller\LoginController::login     
+    
 register:
     path: /register
     controller: App\Controller\LoginController::register
