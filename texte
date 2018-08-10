@@ -5,9 +5,11 @@ git push
 php bin/console make:entity
 php bin/console make:migration
 php bin/console doctrine:migrations:migrate
-git clone https://github.com/creemaboite/zoubida.git
+git clone https:
 composer install
 git checkout entity-created
+git checkout -b register / creer une new branch
+git branch
 git commit -m "migration: add entity Lessons table"
 git commit -m "dev: created new Controller -DefaultController"
 add-template
@@ -16,4 +18,5 @@ git commit -m "dev: finish base.html.twig and edit home.html.twig"
 git commit -m "dev: finish template register and login"
 <link href="{{ absolute_url( asset('assets/css/style.css')) }}" rel="stylesheet">
 git commit -m "dev: finish root register and login"
+git commit -m "dev: new archive project"
 dev

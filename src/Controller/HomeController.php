@@ -2,14 +2,13 @@
 
 namespace App\Controller;
 
+use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class HomeController extends Controller
 {
-    /**
-     * @Route("/home", name="home")
-     */
+    
     public function index()
     {
         // return $this->render('home/index.html.twig', [
@@ -21,7 +20,7 @@ class HomeController extends Controller
         //     ]
         // ]);
     
-        return $this->render('offline/signup.html.twig');
+        return $this->redirectToRoute("login");
     }
 }
 
